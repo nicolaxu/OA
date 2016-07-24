@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">OA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--strings of base activity-->
+    <string name="twice_click">再按一次退出</string>
+
+    <string name="tv_todo_report">事务审批</string>
+    <string name="tv_todo_task">运营分析</string>
+    <string name="tv_todo_message">会议管理</string>
+    <string name="tv_todo_process">任务进程</string>
+    <string name="tv_todo_offcial">公文</string>
+    <string name="tv_todo_document">内部沟通过</string>
+    <string name="bt_login">登录</string>
+    <string name="network_disconnected">网络连接已断开，请检查你的网络</string>
+    <string name="network_connected">网络连接已恢复</string>
+    <string name="tv_todo_flow">进程</string>
+
+    <!--strings of login activity-->
+    <string name="hint_username">请输入用户名</string>
+    <string name="hint_password">密码</string>
+
+    <!--STRINGS OF WORK REPORT-->
+    <string name="tv_my_report_list">我的汇报列表</string>
+    <string name="tv_others_report_list">他人汇报列表</string>
+    <string name="tv_create_new_report">新建工作汇报</string>
+
+    <!--STRINGS OF WORK TASK-->
+    <string name="tv_all_join_task_list">所有参与任务</string>
+    <string name="tv_my_execute_task_list">我执行的任务</string>
+    <string name="tv_my_direct_task_list">我管理的任务</string>
+    <string name="tv_my_create_task_list">我创建的任务</string>
+
+    <!--STRING OF MY MESSAGE-->
+    <string name="tv_all_message">所有资讯</string>
+    <string name="tv_notification">通知公告</string>
+    <string name="tv_enterprise_news">企业新闻</string>
+    <string name="tv_rules_regulations">规章制度</string>
+    <string name="tv_public_resource">公共资源</string>
+
+    <!--STRINGS OF DOCUMENT-->
+    <string name="tv_my_document">我的文档</string>
+    <string name="tv_colleagues_share">同事共享</string>
+    <string name="tv_create_upload">新建上传</string>
+
+    <!--STRINGS OF OFFICIAL DOCUMENT-->
+    <string name="tv_my_official_document">我的审批</string>
+    <string name="tv_my_approve">已经批阅</string>
+    <string name="tv_my_send_official_document">我的发文</string>
+
+    <!--STRINGS OF WORK REPORT DETAIL-->
+    <string name="tv_work_report_detail_title">标题:</string>
+    <string name="tv_work_report_detail_leader">汇报领导:</string>
+    <string name="tv_work_report_detail_create_time">汇报日期:</string>
+    <string name="tv_work_report_detail_update_time">更新日期:</string>
+    <string name="tv_work_report_detail_content">汇报内容:</string>
+    <string name="tv_work_report_detail_attch">相关附件:</string>
+</resources>

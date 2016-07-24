@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@color/gray"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context=".activity.myMessage.MessageMainActivity"
+    tools:showIn="@layout/activity_message_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edit"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_all_message"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ll_todo_height"
+            android:background="@drawable/bg_ll_todo"
+            android:paddingLeft="@dimen/ll_todo_padding"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/iv_report_width"
+                android:layout_height="@dimen/iv_report_height"
+                android:src="@mipmap/message_all_message"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/tv_all_message"
+                android:textSize="@dimen/tv_todo_size"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_notification_list"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ll_todo_height"
+            android:background="@drawable/bg_ll_todo"
+            android:paddingLeft="@dimen/ll_todo_padding"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/iv_report_width"
+                android:layout_height="@dimen/iv_report_height"
+                android:src="@mipmap/message_notification"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/tv_notification"
+                android:textSize="@dimen/tv_todo_size"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_enterprise_news"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ll_todo_height"
+            android:background="@drawable/bg_ll_todo"
+            android:paddingLeft="@dimen/ll_todo_padding"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/iv_report_width"
+                android:layout_height="@dimen/iv_report_height"
+                android:src="@mipmap/message_enterprise_news"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/tv_enterprise_news"
+                android:textSize="@dimen/tv_todo_size"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_rules_regulations"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ll_todo_height"
+            android:background="@drawable/bg_ll_todo"
+            android:paddingLeft="@dimen/ll_todo_padding"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/iv_report_width"
+                android:layout_height="@dimen/iv_report_height"
+                android:src="@mipmap/message_rules_regulations"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/tv_rules_regulations"
+                android:textSize="@dimen/tv_todo_size"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_public_resource"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ll_todo_height"
+            android:background="@drawable/bg_ll_todo"
+            android:paddingLeft="@dimen/ll_todo_padding"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/iv_report_width"
+                android:layout_height="@dimen/iv_report_height"
+                android:src="@mipmap/message_public_resource"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/tv_public_resource"
+                android:textSize="@dimen/tv_todo_size"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
